@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  /* Features Section */
+  #features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    text-align: center;
+  }
+  
+  form {
+    display: inline-block;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+  }
+  
